@@ -10,7 +10,7 @@
 #### 7 - Click "Continue"
 #### 8 - Copy the "Consumer Key" and "Consumer Secret" (click on "Click to reveal" for that one)
 ### Get a Security Token (Optional)
-#### 1 - In your Salesforce Org, open the dropdown menu under your username and choose "My Settings". (In Salesforce Lightning, click on your user picture and choose "Setting")
+#### 1 - In your Salesforce Org, open the dropdown menu under your username and choose "My Settings". (In Salesforce Lightning, click on your user picture and choose "Settings")
 #### 2 - Choose "Reset My Security Token"
 #### 3 - Click on the "Reset Security Token" button
 #### 4 - Check your email to get your token
