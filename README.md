@@ -10,9 +10,13 @@
 #### 7 - Click "Continue"
 #### 8 - Copy the "Consumer Key" and "Consumer Secret" (click on "Click to reveal" for that one)
 ### Get a Security Token (Optional)
+#### 1 - In your Salesforce Org, open the dropdown menu under your username and choose "My Settings". (In Salesforce Lightning, click on your user picture and choose "Setting")
+#### 2 - Choose "Reset My Security Token"
+#### 3 - Click on the "Reset Security Token" button
+#### 4 - Check your email to get your token
 ### Update the C# App
 #### 1 - Open the App.config file
 #### 2 - Change the "Security Token" (optional), "ConsumerKey", "ConsumerSecret", "Username", "Password" keys with your values
 ### Update the Program.cs file
 #### 1 - The "GetOAuthToken" method is generic and will work for any Salesforce REST API call, standard or Vlocity
-#### 2 - Create your own method to call the API you want to use, using the "CreateMoveOrder" method as an example. It calls an Integration Procedure but any Vlocity API can be called the same way. Refer to the Vlocity documentation.
+#### 2 - Create your own method to call the API you want to use, using the "CreateMoveOrder" method as an example. Thie example calls an Integration Procedure but any Vlocity API can be called using the same logic. Refer to the Vlocity documentation.
